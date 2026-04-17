@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Prestige Commercial Landscaping | Dallas, Texas</title>
   <meta name="description" content="Dallas's premier commercial landscaping company. Over 35 years of trusted service to office parks, HOAs, retail centers, and municipal properties across the DFW Metroplex.">
+  <link rel="icon" type="image/png" href="https://iili.io/BUZya49.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -84,11 +85,11 @@
 
     .logo { display: flex; align-items: center; gap: 0.85rem; text-decoration: none; }
     .logo-icon {
-      width: 46px; height: 46px; background: var(--forest);
+      width: 46px; height: 46px;
       border-radius: 10px; display: flex; align-items: center; justify-content: center;
-      box-shadow: 0 2px 8px rgba(27,58,45,0.3);
+      overflow: hidden; flex-shrink: 0;
     }
-    .logo-icon svg { width: 24px; height: 24px; }
+    .logo-icon img { width: 100%; height: 100%; object-fit: contain; }
     .logo-text { display: flex; flex-direction: column; }
     .logo-name {
       font-family: 'Playfair Display', serif; font-size: 1.15rem; font-weight: 700;
@@ -580,10 +581,7 @@
     <nav>
       <a href="#" class="logo">
         <div class="logo-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 2C7.58 2 4 5.58 4 10c0 5.25 8 12 8 12s8-6.75 8-12c0-4.42-3.58-8-8-8z"/>
-            <path d="M9 11c0-1.5 1-3 3-1.5 2-1.5 3 0 3 1.5s-1.5 2.5-3 4c-1.5-1.5-3-2.5-3-4z"/>
-          </svg>
+          <img src="https://iili.io/BUZya49.png" alt="Prestige Landscaping">
         </div>
         <div class="logo-text">
           <span class="logo-name">Prestige Landscaping</span>
@@ -942,11 +940,8 @@
       <div class="footer-grid">
         <div class="footer-brand">
           <div class="logo" style="margin-bottom:0;">
-            <div class="logo-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M12 2C7.58 2 4 5.58 4 10c0 5.25 8 12 8 12s8-6.75 8-12c0-4.42-3.58-8-8-8z"/>
-                <path d="M9 11c0-1.5 1-3 3-1.5 2-1.5 3 0 3 1.5s-1.5 2.5-3 4c-1.5-1.5-3-2.5-3-4z"/>
-              </svg>
+            <div class="logo-icon" style="background: none;">
+              <img src="https://iili.io/BUZya49.png" alt="Prestige Landscaping" style="filter: brightness(0) invert(1);">
             </div>
             <div class="logo-text">
               <span class="logo-name">Prestige Landscaping</span>
